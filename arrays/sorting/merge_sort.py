@@ -1,10 +1,3 @@
-"""
-Merge Sort
---------------
-Divides the array and sort and merge it.
-"""
-
-
 def merge_sort(arr):
     arr_len = len(arr)
     if arr_len <= 1:
@@ -42,7 +35,6 @@ def merge_sort(arr):
 
 
 def main():
-    """Driver function"""
     arr = [1, 0, 3, 5, 6, 8, 9, 2, 4, 7]
     merge_sort(arr)
     print(arr)

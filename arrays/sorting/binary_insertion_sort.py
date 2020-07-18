@@ -1,11 +1,3 @@
-"""
-Binary Insertion Sort
---------------
-Find the postion in which the element to be inserted
-using binary search and do the insert the element.
-"""
-
-
 def binary_search(arr, val, start, end):
     if start == end:
         if arr[start] > val:
@@ -36,7 +28,6 @@ def insertion_sort(arr):
 
 
 def main():
-    """Driver function"""
     arr = [1, 0, 3, 5, 6, 8, 9, 2, 4, 7]
     insertion_sort(arr)
     print(arr)

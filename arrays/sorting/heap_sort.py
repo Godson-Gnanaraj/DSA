@@ -1,11 +1,3 @@
-"""
-Heap Sort
-----------
-Create a max heap from the given array and swap
-the max element to the end and repeat
-"""
-
-
 def heapify(arr, n, i):
     largest = i
     left = 2 * i + 1
@@ -34,7 +26,6 @@ def heap_sort(arr):
 
 
 def main():
-    """Driver function"""
     arr = [1, 0, 3, 5, 6, 8, 9, 2, 4, 7]
     heap_sort(arr)
     print(arr)
